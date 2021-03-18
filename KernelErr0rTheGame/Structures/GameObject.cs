@@ -35,13 +35,13 @@ namespace KernelErr0rTheGame.Structures
 
         protected void LoadFlatColor(byte r, byte g, byte b, byte a)
         {
-            Texture.Pointer = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, 1024, 768);
+/*            Texture.Pointer = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, 1024, 768);
             SDL.SDL_SetRenderTarget(renderer, texture);
             SDL.SDL_RenderClear(renderer);
             SDL.SDL_RenderDrawRect(renderer, Rect);
             SDL.SDL_SetRenderDrawColor(renderer, r, g, b, a);
             SDL.SDL_RenderFillRect(renderer, Rect);
-            SDL.SDL_SetRenderTarget(renderer, IntPtr.Zero);
+            SDL.SDL_SetRenderTarget(renderer, IntPtr.Zero);*/
         }
         
         public void Translate(Vector2 translation)

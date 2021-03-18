@@ -6,7 +6,7 @@ using System.Diagnostics;
 
 namespace KernelErr0rTheGame.Core
 {
-    class GameWindow
+    public class GameWindow
     {
         private IntPtr _window;
         private Render _render;

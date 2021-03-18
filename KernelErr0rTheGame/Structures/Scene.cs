@@ -6,8 +6,8 @@ namespace KernelErr0rTheGame.Structures
 {
     public abstract class Scene
     {
-        public List<GameObject> SceneObjects = new List<GameObject>();
-        public List<GameObject> StaticSceneObjects = new List<GameObject>();
+        public readonly List<GameObject> SceneObjects = new List<GameObject>();
+        public readonly List<GameObject> StaticSceneObjects = new List<GameObject>();
 
         public Scene()
         {

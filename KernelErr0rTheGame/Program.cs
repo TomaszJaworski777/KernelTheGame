@@ -3,7 +3,7 @@ using SDL2;
 
 namespace KernelErr0rTheGame
 {
-    class Program
+    private class Program
     {
         private static void Main(string[] args)
         {
